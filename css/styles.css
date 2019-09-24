@@ -1,0 +1,434 @@
+.navbar {
+  padding-top: 1.5%;
+}
+.navbar .navbar-brand {
+  color: #505050;
+  font-size: 3vh;
+  font-family: 'Red Hat Display', 'san-serif';
+  font-weight: 500;
+}
+.navbar ul a {
+  color: #505050;
+  font-size: 2vh;
+  font-family: 'Red Hat Display', 'san-serif';
+}
+.navbar ul a:hover {
+  background-color: #fdf5f7;
+  font-size: 2.2vh;
+}
+nav.navbar {
+  background: transparent;
+}
+span.icon-bar {
+  background-color: #505050;
+}
+
+body {
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 100%;
+  height: auto;
+  height: 100%;
+}
+.backgroundimg {
+  background-image: url(../images/portfolio.gif);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+.backgroundimg .container {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, transparent 45%, white 100%);
+}
+.backgroundimg .container .h1 {
+  color: #f6d6e0;
+  font-size: 3.2em;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 400;
+  padding-top: 4%;
+  padding-bottom: 0.5%;
+  margin-left: 5%;
+}
+.backgroundimg .container .h2 {
+  color: #505050;
+  font-size: 1.6em;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 100;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 1.5;
+  margin-left: 5%;
+}
+.btn-default {
+  border-color: #f6d6e0;
+  margin: 1%;
+  padding: 1.5%;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 100;
+  font-size: 1.2em;
+  margin-left: 5%;
+}
+.btn-default a {
+  color: #505050;
+  text-decoration: none;
+}
+.btn-default:hover {
+  background-color: #fdf5f7;
+  border-color: #f6d6e0;
+}
+
+.highlight {
+  background: linear-gradient(180deg,rgba(255,255,255,0) 45%, #dfe3e5 55%);
+}
+
+#work-image-grid {
+  margin-top: 7%;
+  margin-bottom: 10%;
+}
+.col-lg-6 {
+  padding: 1.5%;
+}
+.col-lg-6 img {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: white;
+  width: 60%;
+  height: 60%;
+}
+.thumbnailimg:hover img {
+  opacity: 0.5;
+}
+.thumbnailimg:hover .middle {
+  opacity: 1;
+  cursor: pointer;
+}
+.summary {
+  background color: white;
+  font-family: 'Manjari','san-serif';
+  padding: 10%;
+}
+.summary h2 {
+  color: #505050;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-bottom: 2%;
+}
+.summary h4 {
+  color: #939598;
+  font-weight:100;
+  font-size: 1em;
+  padding-bottom: 5%;
+}
+.summary p {
+  color: #505050;
+  font-weight: 100;
+  font-size: 1em;
+}
+.caption {
+  color: #505050;
+  font-weight: 100;
+  font-size: 1.3em;
+  font-family: 'Manjari', 'san-serif';
+  padding-bottom: 2.5%;
+  padding-top: 3%;
+  text-align: center;
+}
+footer {
+  margin-top: 0;
+}
+.page-footer {
+  text-align: center;
+  justify-content: center;
+  background-color: #505050;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.txt-row {
+  padding-top: 1.5%;
+}
+.txt-row h2,p {
+  color: white;
+  font-family: 'Manjari', 'san-serif';
+}
+.txt-row h2 {
+  font-size: 1.5em;
+}
+.txt-row p {
+  font-weight: 100;
+}
+.link-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 2.5%;
+}
+.copyright-row p {
+  color: white;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 100;
+  font-size: 0.8em;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+.playground-description {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.playground-description .quote {
+  color: #f6d6e0;
+  font-family: 'Manjari','san-serif';
+  font-size: 2em;
+  font-weight: 400;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.playground-description .explanation {
+  color: #505050;
+  font-family: 'Manjari', 'san-serif';
+  font-size: 1.5em;
+  font-weight: 100;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  line-height: 1.5;
+}
+.projectbackground img {
+  width: 100%;
+  height: 100%;
+}
+.projecthead {
+  font-size: 1.5em;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 400;
+}
+.projectdescription {
+  font-size: 1em;
+  font-family: 'Manjari', 'san-serif';
+  line-height: 1.8;
+  font-weight: 100;
+  margin-top: 0;
+  padding-right: 1%;
+}
+.col-lg-4 p {
+  color: #505050;
+  font-size: 1em;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 100;
+}
+.projectbody .container {
+  padding-top: 2%;
+}
+.bodytitle {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 8%;
+}
+.bodytitle .titles {
+  color: #505050;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: 'Manjari', 'san-serif';
+}
+.bodytitle p {
+  color: #505050;
+  font-size: 1em;
+  font-weight: 100;
+  font-family: 'Manjari', 'san-serif';
+  padding-top: 2%;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+.bodytitle h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+  font-family: 'Manjari','san-serif';
+  color: #939598;
+  padding-top: 3%;
+  padding-bottom: 0;
+}
+.bodytitle img {
+  width: 85%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+.bodytitle .btn-default {
+  margin-top: 1%;
+  margin-bottom: 0;
+  border-color: #DFECE4;
+}
+.bodytitle .btn-default:hover {
+  background-color: #DFECE4;
+}
+.reflection {
+  margin-bottom: 8%;
+}
+.reflection p {
+  padding-bottom: 1.5%;
+}
+.reflection .container a p {
+  color: blue;
+}
+.wideimage {
+  align-items: center;
+  justify-content: center;
+}
+.wideimage img{
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+}
+.bodytitle .gif img {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.projectarrow {
+  background-color: #fbf7f5;
+}
+.projectarrow .left {
+  text-align: left;
+}
+.projectarrow .right {
+  text-align: right;
+}
+.projectarrow .left img {
+  float: left;
+  padding: 1.5%;
+}
+.projectarrow .right img {
+  float: right;
+  padding: 1.5%;
+}
+.projectarrow img {
+  width: 10%;
+  height: auto;
+}
+.projectarrow h2 {
+  font-family: 'Manjari', 'san-serif';
+  font-size: 1.3em;
+  font-weight: 100;
+  color: #505050;
+}
+.projectarrow a:hover {
+  text-decoration: none;
+}
+.wordpressnavigation img {
+  width: 55%;
+  height: auto;
+}
+.declutterchanges {
+  padding-top: 5%;
+}
+.aboutbody .about {
+  color: #505050;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: 'Manjari', 'san-serif';
+  padding-bottom: 5%;
+}
+.aboutbody p {
+  color: #505050;
+  font-size: 1em;
+  font-weight: 100;
+  font-family: 'Manjari', 'san-serif';
+  line-height: 1.5;
+  padding-bottom: 1.3%;
+}
+.aboutbody button {
+  margin-left: 0;
+  margin-top: 3%;
+}
+.aboutbody .btn-default {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.skills {
+  margin-top: 5%;
+  padding-top: 2%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.skills .about {
+  padding-bottom: 4%;
+}
+.skills img {
+  width: 75%;
+  height: auto;
+  padding-bottom: 8%;
+}
+#image-gallery {
+  margin-bottom: 5%;
+}
+#image-gallery .col-lg-4 {
+  padding-bottom: 4%;
+}
+.contact-description {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.contact-description .contact-header {
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #505050;
+  line-height: 1.5;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#contact-form {
+  padding-bottom: 5%;
+}
+#contact-form .col-lg-6 {
+  padding-bottom: 0;
+}
+#contact-form .col-lg-12{
+  padding-top: 2%;
+}
+#contact-form .form-group {
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 400;
+}
+#contact-form .btn-success,.btn-send {
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 400;
+  background-color: white;
+  border-color: #f6d6e0;
+  color: #505050;
+}
+#contact-form .btn-send:hover {
+  background-color: #fdf5f7;
+}

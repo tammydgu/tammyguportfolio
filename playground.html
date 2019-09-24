@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="This is the portfolio website of Tammy Gu."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Tammy Gu | Playground</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Manjari:100,400,700|Red+Hat+Display:500,700,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">TAMMY GU</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#work-image-grid">WORK</a></li>
+            <li><a href="playground.html">PLAYGROUND</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="playground-description">
+        <h4 class="quote">"The world is but a canvas to the imagination." <i>- Ralph Waldo Emerson</i></h4>
+        <h4 class="explanation">I have always understood the word “play” as referring to a desire to interact with one’s environment - a word characterized by curiosity, childlike wonder, and joy. It fuels creativity, drives innovation, and inspires art. From sketchpads to tablets to fingertips on frosty car windows, I am constantly finding ways to connect with the world around me. <b>Welcome to my playground!</b></h4>
+      </div>
+    </div>
+
+    <div id="image-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <a href="images/vdpillustration.png" data-toggle="lightbox" data-gallery="playground-gallery">
+                <img src="images/vdpillustrationthumbnail.png" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="images/teadrawing.jpg" data-toggle="lightbox" data-gallery="playground-gallery">
+                <img src="images/teadrawingthumbnail.jpg" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="images/brotherdrawing.jpg" data-toggle="lightbox" data-gallery="playground-gallery">
+                <img src="images/brotherdrawingthumbnail.jpg" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+
+          <div class="col-lg-4">
+            <a href="images/modeldrawing.jpg" data-toggle="lightbox" data-gallery="playground-gallery">
+                <img src="images/modeldrawingthumbnail.jpg" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="images/hummportfolioillustrations.png" data-toggle="lightbox" data-gallery="playground-gallery">
+                <img src="images/hummportfolioillustrationsthumbnail.png" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="images/miyazakidrawing.jpg" data-toggle="lightbox" data-gallery="playground-gallery">
+                <img src="images/miyazakidrawingthumbnail.jpg" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+
+          <div class="col-lg-4">
+            <a href="images/portfolioillustrationpy.png" data-toggle="lightbox" data-gallery="playground-gallery">
+                <img src="images/portfolioillustrationpythumbnail.png" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="images/handpuppy.jpg" data-toggle="lightbox" data-gallery="playground-gallery">
+              <img src="images/handpuppythumbnail.jpg" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <a href="images/portfolioillustrationbp.png" data-toggle="lightbox" data-gallery="playground-gallery">
+              <img src="images/portfolioillustrationbpthumbnail.png" style="width:100%" class="img-rounded">
+            </a>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--Scripts, placed at the end of the document so that the pages load faster. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+              event.preventDefault();
+              $(this).ekkoLightbox();
+          });
+    </script>
+
+
+  </body>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="txt-row">
+        <h2>Let's build something together!</h2>
+        <p>If you're interested in working together or just want to say hello, feel free to reach me at <b>tagu@berkeley.edu!</b></p>
+      </div>
+      <div class="link-row">
+        <a href="https://www.linkedin.com/in/tammy-gu-24b44bba/"><img src="images/linkedinlogo.png" alt="linkedin profile" style="width:4.5vh"></a>
+        <a href="https://www.behance.net/taguf59c"><img src="images/behancelogo.png" alt="linkedin profile" style="width:4.5vh"></a>
+        <a href="https://www.instagram.com/tam_gu/?hl=en"><img src="images/instagramlogo.png" alt="linkedin profile" style="width:4.5vh"></a>
+      </div>
+      <div class="copyright-row">
+        <p>COPYRIGHT 2019 TAMMY GU ALL RIGHTS RESERVED.</p>
+      </div>
+    </div>
+  </footer>
+
+
+</html>
