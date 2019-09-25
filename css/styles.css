@@ -47,7 +47,8 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  background: linear-gradient(to bottom, transparent 60%, #ffffff 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 60%, #ffffff 100%);
+  background: -webkit-linear-gradient(to bottom, rgba(255,255,255,0) 60%, #ffffff 100%);
   height: 100vh;
   width: 100%;
 }
@@ -64,8 +65,8 @@ body {
   font-size: 1.6em;
   font-family: 'Manjari', 'san-serif';
   font-weight: 100;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
   line-height: 1.5;
 }
 .btn-default {
@@ -181,8 +182,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 28%;
+  padding-right: 28%;
   padding-top: 2.5%;
 }
 .copyright-row p {
@@ -215,7 +216,7 @@ footer {
   font-weight: 100;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 13%;
   line-height: 1.5;
 }
 .projectbackground img {
@@ -377,6 +378,7 @@ footer {
   align-items: center;
   text-align: center;
   justify-content: center;
+  background-color: #f7f6f6;
 }
 .skills .about {
   padding-bottom: 4%;
