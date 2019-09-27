@@ -112,8 +112,8 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   background-color: white;
-  width: 60%;
-  height: 60%;
+  width: 75%;
+  height: 70%;
 }
 .thumbnailimg:hover img {
   opacity: 0.5;
@@ -125,7 +125,7 @@ body {
 .summary {
   background color: white;
   font-family: 'Manjari','san-serif';
-  padding: 10%;
+  padding: 8%;
 }
 .summary h2 {
   color: #505050;
