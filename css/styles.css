@@ -415,14 +415,13 @@ footer {
 }
 #contact-form .col-lg-6 {
   padding-bottom: 0;
+  font-family: 'Manjari', 'san-serif';
 }
 #contact-form .col-lg-12{
   padding-top: 2%;
-}
-#contact-form .form-group {
   font-family: 'Manjari', 'san-serif';
-  font-weight: 400;
 }
+
 #contact-form .btn-success,.btn-send {
   font-family: 'Manjari', 'san-serif';
   font-weight: 400;
