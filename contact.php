@@ -3,7 +3,7 @@
   $visitor_email = $_POST['email'];
   $message = $_POST['message'];
 
-  $email_from = 'info@tammygu.com';
+  $email_from = 'tagu@berkeley.edu';
   $email_subject = 'New Message From Your Portfolio'
   $email_body = "User Name: $name.\n".
                   "User Email: $visitor_email.\n".

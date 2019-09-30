@@ -212,11 +212,21 @@ footer {
   color: #505050;
   font-family: 'Manjari', 'san-serif';
   font-size: 1.5em;
-  font-weight: 100;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-bottom: 13%;
+  font-weight: 400;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 1%;
   line-height: 1.5;
+}
+.playground-description .explanation-bold {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 12%;
+  color: #505050;
+  font-family: 'Manjari', 'san-serif';
+  font-size: 1.5em;
+  line-height: 1.5;
+  font-weight: 100;
 }
 .projectbackground img {
   width: 100%;
@@ -372,7 +382,7 @@ footer {
   padding-bottom: 3%;
 }
 .skills {
-  margin-top: 5%;
+  margin-top: 7%;
   padding-top: 2%;
   align-items: center;
   text-align: center;
