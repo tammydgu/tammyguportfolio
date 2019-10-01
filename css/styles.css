@@ -177,6 +177,9 @@ footer {
 .txt-row p {
   font-weight: 100;
 }
+.txt-row a {
+  color: #f6d6e0;
+}
 .link-row {
   display: flex;
   align-items: center;
@@ -419,26 +422,41 @@ footer {
   padding-left: 10%;
   padding-right: 10%;
 }
-
-#contact-form {
-  padding-bottom: 5%;
+.contact-links .col-lg-4 {
+  padding-top: 3%;
+  padding-bottom: 7%;
 }
-#contact-form .col-lg-6 {
-  padding-bottom: 0;
+.contact-links .row {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact-links img {
+  width: 17%;
+  height: auto;
+  padding-bottom: 4%;
+}
+.contact-links p {
   font-family: 'Manjari', 'san-serif';
+  font-size: 1.15em;
+  margin-bottom: 0.5%;
 }
-#contact-form .col-lg-12{
+.phone img {
+  width: 14%;
+  height: auto;
+}
+.email {
   padding-top: 2%;
-  font-family: 'Manjari', 'san-serif';
 }
-
-#contact-form .btn-success,.btn-send {
-  font-family: 'Manjari', 'san-serif';
-  font-weight: 400;
-  background-color: white;
-  border-color: #f6d6e0;
-  color: #505050;
+.linkedin .col-lg-4 {
+  padding-top: 2%;
 }
-#contact-form .btn-send:hover {
-  background-color: #fdf5f7;
+.shake img:hover{
+  animation: shake 0.6s infinite;
+  animation-timing-function: linear;
+}
+@keyframes shake {
+  0% { transform: rotate(2.5deg); }
+  50% { transform: rotate(-2.5deg); }
+  100% { transform: rotate(2.5deg); }
 }
