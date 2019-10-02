@@ -133,16 +133,22 @@ body {
   font-size: 1.5em;
   padding-bottom: 2%;
 }
+.summary h3 {
+  color: #939598;
+  font-weight: 100;
+  font-size: 1.1em;
+  padding-bottom: 2%;
+}
 .summary h4 {
   color: #939598;
   font-weight:100;
-  font-size: 1em;
+  font-size: 1.1em;
   padding-bottom: 5%;
 }
 .summary p {
   color: #505050;
   font-weight: 100;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 .caption {
   color: #505050;
@@ -241,7 +247,7 @@ footer {
   font-weight: 400;
 }
 .projectdescription {
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: 'Manjari', 'san-serif';
   line-height: 1.8;
   font-weight: 100;
@@ -250,7 +256,7 @@ footer {
 }
 .col-lg-4 p {
   color: #505050;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: 'Manjari', 'san-serif';
   font-weight: 100;
 }
@@ -271,12 +277,13 @@ footer {
 }
 .bodytitle p {
   color: #505050;
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 100;
   font-family: 'Manjari', 'san-serif';
   padding-top: 2%;
   padding-left: 18%;
   padding-right: 18%;
+  line-height: 1.8;
 }
 .bodytitle h3 {
   font-size: 1.3em;
@@ -368,10 +375,10 @@ footer {
 }
 .aboutbody p {
   color: #505050;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 100;
   font-family: 'Manjari', 'san-serif';
-  line-height: 1.5;
+  line-height: 1.8;
   padding-bottom: 1.3%;
 }
 .aboutbody button {
