@@ -14,7 +14,6 @@
 }
 .navbar ul a:hover {
   background-color: #fdf5f7;
-  font-size: 2.2vh;
 }
 nav.navbar {
   background: transparent;
@@ -53,7 +52,7 @@ body {
   width: 100%;
 }
 .backgroundimg .container .h1 {
-  color: #f6d6e0;
+  color: #BD6B73;
   font-size: 3.2em;
   font-family: 'Manjari', 'san-serif';
   font-weight: 400;
@@ -70,12 +69,16 @@ body {
   line-height: 1.5;
 }
 .btn-default {
-  border-color: #f6d6e0;
+  border-color: #BD6B73;
   margin: 1%;
-  padding: 1.5%;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
   font-family: 'Manjari', 'san-serif';
   font-weight: 100;
   font-size: 1.2em;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 .btn-default a {
   color: #505050;
@@ -83,7 +86,7 @@ body {
 }
 .btn-default:hover {
   background-color: #fdf5f7;
-  border-color: #f6d6e0;
+  border-color: #BD6B73;
 }
 
 .highlight {
@@ -208,7 +211,7 @@ footer {
   justify-content: center;
 }
 .playground-description .quote {
-  color: #f6d6e0;
+  color: #BD6B73;
   font-family: 'Manjari','san-serif';
   font-size: 2em;
   font-weight: 400;
