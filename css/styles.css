@@ -259,7 +259,7 @@ footer {
 }
 .col-lg-4 p {
   color: #505050;
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: 'Manjari', 'san-serif';
   font-weight: 100;
 }
@@ -300,7 +300,7 @@ footer {
   width: 85%;
   height: auto;
   padding-top: 5%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 .bodytitle .btn-default {
   margin-top: 1%;
